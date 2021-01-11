@@ -38,7 +38,6 @@ const mapAndCalculate = (data_array) => {
     let resultArray = [];
     data_array.map((line, index) => {
         if (index % 2 !== 0 && index !== 0) {
-            let tempRes = []
             let int = data_array[--index]
             let nums = line.split(' ');
             nums.forEach(num => {
